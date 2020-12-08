@@ -1,0 +1,17 @@
+MyFunctionDemo:
+  Component: fc
+  Provider: alibaba
+  Properties:
+    Region: cn-hangzhou
+    Service:
+      Name: ServerlessToolProject
+      Description: 欢迎使用ServerlessTool
+    Function:
+      Name: serverless_demo_java8
+      Description: 这是一个 Java8 的测试案例
+      CodeUri: ./
+      Handler: example.App::handleRequest
+      Initializer:
+        Handler: example.App::initialize
+      MemorySize: 128
+      Runtime: java8

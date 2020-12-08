@@ -1,0 +1,28 @@
+MyFunctionDemo:
+  Component: fc
+  Provider: alibaba
+  Properties:
+    Region: cn-hangzhou
+    Service:
+      Name: ServerlessToolProject
+      Description: 欢迎使用ServerlessTool
+    Function:
+      Name: serverless_demo_java8_http
+      Description: 这是一个 Java8-HTTP 的测试案例
+      CodeUri: ./
+      Handler: example.App::handleRequest
+      Initializer:
+        Handler: example.App::initialize
+      MemorySize: 128
+      Runtime: java8
+      Triggers:
+        - Name: TriggerNameHttp
+          Type: HTTP
+          Parameters:
+            AuthType: ANONYMOUS
+            Methods:
+              - GET
+              - POST
+              - PUT
+            Domains:
+              - Domain: Auto
