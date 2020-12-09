@@ -17,7 +17,9 @@
 - 进入项目：`cd java8-http`
 
 - 执行 `s build docker` 即可构建项目。
+    ![](https://images.serverlessfans.com/s-tool/zh/fc-event-java8-build.png)
 
-- 执行：`s deploy`即可进行部署：
+- 执行 `s deploy` 即可进行部署：
+    ![](https://images.serverlessfans.com/s-tool/zh/fc-event-java8-deploy.jpg)
 
 - 至此，我们完成了简单的函数部署功能。
