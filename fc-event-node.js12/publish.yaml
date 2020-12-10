@@ -1,6 +1,6 @@
 Type: Application
-Name: nodejs12
-Version: 0.0.6
+Name: node.js12
+Version: 0.0.1
 Provider:
   - Alibaba
 Description:
