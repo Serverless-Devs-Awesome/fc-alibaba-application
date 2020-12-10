@@ -1,11 +1,11 @@
 Type: Application
-Name: python2.7-http
-Version: 0.0.1
+Name: node.js10
+Version: 0.0.6
 Provider:
   - Alibaba
 Description:
-  zh: 快速部署一个 Python 2.7 的 HTTP 类型的 Hello World 函数到阿里云函数计算。
-  en: Quickly deploy a Python 2.7 http type Hello world function to alicloud function calculation.
+  zh: 快速部署一个 Node.JS 10 的 Event 类型的 Hello World 函数到阿里云函数计算。
+  en: Quickly deploy a Node.JS 10 event type Hello world function to alicloud function calculation.
 HomePage: https://serverless.aliyun.com/
 Tags:
   - zh: 函数计算
@@ -26,4 +26,4 @@ Service:
         en: Create service
       - zh: 删除服务
         en: Delete service
-    Runtime: Python
+    Runtime: Node.JS
