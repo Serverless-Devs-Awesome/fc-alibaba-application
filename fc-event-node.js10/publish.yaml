@@ -1,11 +1,11 @@
 Type: Application
 Name: node.js10
-Version: 0.0.6
+Version: 0.0.7
 Provider:
   - Alibaba
 Description:
   zh: 快速部署一个 Node.JS 10 的 Event 类型的 Hello World 函数到阿里云函数计算。
-  en: Quickly deploy a Node.JS 10 event type Hello world function to alicloud function calculation.
+  en: Quickly deploy a Node.JS 10 event type Hello world function to Alibaba Cloud function calculation.
 HomePage: https://serverless.aliyun.com/
 Tags:
   - zh: 函数计算

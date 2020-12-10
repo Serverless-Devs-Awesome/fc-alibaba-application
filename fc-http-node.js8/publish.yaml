@@ -1,11 +1,11 @@
 Type: Application
 Name: node.js8-http
-Version: 0.0.5
+Version: 0.0.6
 Provider:
   - Alibaba
 Description:
   zh: 快速部署一个 Node.JS 8 的 HTTP 类型的 Hello World 函数到阿里云函数计算。
-  en: Quickly deploy a Node.JS 8 http type Hello world function to alicloud function calculation.
+  en: Quickly deploy a Node.JS 8 http type Hello world function to Alibaba Cloud function calculation.
 HomePage: https://serverless.aliyun.com/
 Tags:
   - zh: 函数计算
