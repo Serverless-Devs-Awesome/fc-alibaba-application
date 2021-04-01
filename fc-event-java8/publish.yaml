@@ -2,28 +2,19 @@ Type: Application
 Name: java8
 Version: 0.0.4
 Provider:
-  - Alibaba
-Description:
-  zh: 快速部署一个 Java 8 的 Event 类型的 Hello World 函数到阿里云函数计算。
-  en: Quickly deploy a Java 8 event type Hello world function to Alibaba Cloud function calculation.
+  - 阿里云
+Description: 快速部署一个 Java 8 的 Event 类型的 Hello World 函数到阿里云函数计算。
 HomePage: https://serverless.aliyun.com/
 Tags:
-  - zh: 函数计算
-    en: Function calculation
-  - zh: 你好世界
-    en: Hello world
-  - zh: 新手入门
-    en: Getting started
+  - 函数计算
+  - 你好世界
+  - 新手入门
 Category: 新手入门
 Service:
   函数计算:
     Authorities:
-      - zh: 创建函数
-        en: Create function
-      - zh: 删除函数
-        en: Delete function
-      - zh: 创建服务
-        en: Create service
-      - zh: 删除服务
-        en: Delete service
+      - 创建函数
+      - 删除函数
+      - 创建服务
+      - 删除服务
     Runtime: Java

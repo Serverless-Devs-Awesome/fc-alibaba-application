@@ -1,4 +1,11 @@
-# 阿里云函数计算 Node.JS 8 案例（Alibaba FC Node.JS 8 Demo）
+# 阿里云函数计算 Node.JS 8 案例
 
-- [中文文档](./readme_zh.md)
-- [English Document](./readme_en.md)
+只需几步就可以快速在阿里云函数计算服务上体验 Node.JS 8 ：
+
+- 初始化项目：`s init node.js8 -p alibaba`
+- 进入项目：`cd node.js8`
+- 构建项目：`s build docker`
+- 部署项目：`s deploy`
+- 触发项目：`s invoke remote`
+
+即可实现`Node.JS 8`案例的初始化、部署整个流程。
